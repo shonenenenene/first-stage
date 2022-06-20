@@ -15,10 +15,10 @@ while ( i < 3 ) {
 
 //6
 
-// let value 
-// do {
-//     value = prompt('Pls number > 100')
-// } while ( num < 100 && num !== null )
+let value 
+do {
+    value = prompt('Pls number > 100')
+} while ( num < 100 && num !== null )
 
 // 7
 

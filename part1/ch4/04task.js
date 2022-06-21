@@ -21,15 +21,15 @@ const calculator = {
 let ladder = {
     step: 0,
     up() {
-        this.step++;
+        this.step++
         return this
     },
     down() {
-        this.step--;
+        this.step--
         return this
     },
     showStep: function() { 
-        alert( this.step );
+        alert( this.step )
         return this
     },
 };

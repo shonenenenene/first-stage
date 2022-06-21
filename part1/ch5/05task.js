@@ -124,7 +124,7 @@ function getAverageAge( guys ) {
 
 function unique( arr ) {
     let setix = new Set(arr)
-    return setix
+    return Array.from(setix)
 }
 
 let strings = ["кришна", "кришна", "харе", "харе",
